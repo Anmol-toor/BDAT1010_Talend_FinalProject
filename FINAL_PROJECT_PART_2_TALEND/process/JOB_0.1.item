@@ -163,7 +163,7 @@
     <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="my2022_fuel_consumption_ratings" name="tDBInput_1">
-      <column comment="" key="false" length="50" name="Model_year" nullable="true" originalDbColumnName="Model year" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Model_year" nullable="true" originalDbColumnName="Model year" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="50" name="Make" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -175,31 +175,31 @@
       <column comment="" key="false" length="50" name="Vehicle_class" nullable="true" originalDbColumnName="Vehicle class" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="50" name="Engine_size__L" nullable="true" originalDbColumnName="Engine size (L)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Engine_size__L" nullable="true" originalDbColumnName="Engine size (L)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="50" name="Cylinders" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Cylinders" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="50" name="Transmission" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="50" name="Fuel_type" nullable="true" originalDbColumnName="Fuel type" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Fuel_type" nullable="true" originalDbColumnName="Fuel type" pattern="" precision="0" sourceType="CHAR" type="id_Character" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="50" name="City__L_100_km" nullable="true" originalDbColumnName="City (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="City__L_100_km" nullable="true" originalDbColumnName="City (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="50" name="Highway__L_100_km" nullable="true" originalDbColumnName="Highway (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Highway__L_100_km" nullable="true" originalDbColumnName="Highway (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="50" name="Combined__L_100_km" nullable="true" originalDbColumnName="Combined (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Combined__L_100_km" nullable="true" originalDbColumnName="Combined (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="50" name="Combined__mpg" nullable="true" originalDbColumnName="Combined (mpg)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Combined__mpg" nullable="true" originalDbColumnName="Combined (mpg)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="50" name="CO2_emissions__g_km" nullable="true" originalDbColumnName="CO2 emissions (g km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="CO2_emissions__g_km" nullable="true" originalDbColumnName="CO2 emissions (g km)" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="50" name="CO2_rating" nullable="true" originalDbColumnName="CO2 rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -218,50 +218,50 @@
     <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" show="false" value=""/>
     <elementParameter field="TABLE" name="THRESHLODS"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="talend" name="tFlowMeter_1">
-      <column key="false" length="50" name="Model_year" nullable="true" originalDbColumnName="Model year" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+    <metadata connector="FLOW" label="my2022_fuel_consumption_ratings" name="tFlowMeter_1">
+      <column comment="" key="false" length="50" name="Model_year" nullable="true" originalDbColumnName="Model year" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Make" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Make" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Model" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Model" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Vehicle_class" nullable="true" originalDbColumnName="Vehicle class" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Vehicle_class" nullable="true" originalDbColumnName="Vehicle class" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Engine_size__L" nullable="true" originalDbColumnName="Engine size (L)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Engine_size__L" nullable="true" originalDbColumnName="Engine size (L)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Cylinders" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Cylinders" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Transmission" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Transmission" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Fuel_type" nullable="true" originalDbColumnName="Fuel type" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Fuel_type" nullable="true" originalDbColumnName="Fuel type" pattern="" precision="0" sourceType="CHAR" type="id_Character" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="City__L_100_km" nullable="true" originalDbColumnName="City (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="City__L_100_km" nullable="true" originalDbColumnName="City (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Highway__L_100_km" nullable="true" originalDbColumnName="Highway (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Highway__L_100_km" nullable="true" originalDbColumnName="Highway (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Combined__L_100_km" nullable="true" originalDbColumnName="Combined (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Combined__L_100_km" nullable="true" originalDbColumnName="Combined (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Combined__mpg" nullable="true" originalDbColumnName="Combined (mpg)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Combined__mpg" nullable="true" originalDbColumnName="Combined (mpg)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="CO2_emissions__g_km" nullable="true" originalDbColumnName="CO2 emissions (g km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="CO2_emissions__g_km" nullable="true" originalDbColumnName="CO2 emissions (g km)" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="CO2_rating" nullable="true" originalDbColumnName="CO2 rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="CO2_rating" nullable="true" originalDbColumnName="CO2 rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Smog_rating" nullable="true" originalDbColumnName="Smog rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Smog_rating" nullable="true" originalDbColumnName="Smog rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
@@ -280,83 +280,83 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="out1">
-      <column key="false" length="50" name="Model_year" nullable="true" originalDbColumnName="Model year" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+    <metadata name="out1">
+      <column comment="" key="false" length="50" name="Model_year" nullable="true" originalDbColumnName="Model year" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Make" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Make" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Model" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Model" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Vehicle_class" nullable="true" originalDbColumnName="Vehicle class" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Vehicle_class" nullable="true" originalDbColumnName="Vehicle class" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Engine_size__L" nullable="true" originalDbColumnName="Engine size (L)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Engine_size__L" nullable="true" originalDbColumnName="Engine size (L)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Cylinders" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Cylinders" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Transmission" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Transmission" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Fuel_type" nullable="true" originalDbColumnName="Fuel type" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Fuel_type" nullable="true" originalDbColumnName="Fuel type" pattern="" precision="0" sourceType="CHAR" type="id_Character" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="City__L_100_km" nullable="true" originalDbColumnName="City (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="City__L_100_km" nullable="true" originalDbColumnName="City (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Highway__L_100_km" nullable="true" originalDbColumnName="Highway (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Highway__L_100_km" nullable="true" originalDbColumnName="Highway (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Combined__L_100_km" nullable="true" originalDbColumnName="Combined (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Combined__L_100_km" nullable="true" originalDbColumnName="Combined (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="CO2_emissions__g_km" nullable="true" originalDbColumnName="CO2 emissions (g km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="CO2_emissions__g_km" nullable="true" originalDbColumnName="CO2 emissions (g km)" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="CO2_rating" nullable="true" originalDbColumnName="CO2 rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="CO2_rating" nullable="true" originalDbColumnName="CO2 rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Smog_rating" nullable="true" originalDbColumnName="Smog rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Smog_rating" nullable="true" originalDbColumnName="Smog rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
-      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <varTables name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out1" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row2.Model_year " name="Model_year" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.Model_year " name="Model_year" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row2.Make " name="Make" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.Model " name="Model" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.Vehicle_class " name="Vehicle_class" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.Engine_size__L " name="Engine_size__L" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.Cylinders " name="Cylinders" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.Engine_size__L " name="Engine_size__L" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.Cylinders " name="Cylinders" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row2.Transmission " name="Transmission" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.Fuel_type " name="Fuel_type" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.City__L_100_km " name="City__L_100_km" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.Highway__L_100_km " name="Highway__L_100_km" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.Combined__L_100_km " name="Combined__L_100_km" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.CO2_emissions__g_km " name="CO2_emissions__g_km" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.Fuel_type " name="Fuel_type" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row2.City__L_100_km " name="City__L_100_km" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.Highway__L_100_km " name="Highway__L_100_km" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.Combined__L_100_km " name="Combined__L_100_km" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.CO2_emissions__g_km " name="CO2_emissions__g_km" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row2.CO2_rating " name="CO2_rating" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.Smog_rating " name="Smog_rating" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="Model_year" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Model_year" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="Make" nullable="true" type="id_String"/>
         <mapperTableEntries name="Model" nullable="true" type="id_String"/>
         <mapperTableEntries name="Vehicle_class" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Engine_size__L" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Cylinders" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Engine_size__L" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="Cylinders" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="Transmission" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Fuel_type" nullable="true" type="id_String"/>
-        <mapperTableEntries name="City__L_100_km" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Highway__L_100_km" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Combined__L_100_km" nullable="true" type="id_String"/>
-        <mapperTableEntries name="Combined__mpg" nullable="true" type="id_String"/>
-        <mapperTableEntries name="CO2_emissions__g_km" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Fuel_type" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="City__L_100_km" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="Highway__L_100_km" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="Combined__L_100_km" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="Combined__mpg" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="CO2_emissions__g_km" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="CO2_rating" nullable="true" type="id_String"/>
         <mapperTableEntries name="Smog_rating" nullable="true" type="id_String"/>
       </inputTables>
@@ -366,46 +366,46 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tUnite_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tUnite_1">
-      <column key="false" length="50" name="Model_year" nullable="true" originalDbColumnName="Model year" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Model_year" nullable="true" originalDbColumnName="Model year" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Make" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Make" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Model" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Model" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Vehicle_class" nullable="true" originalDbColumnName="Vehicle class" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Vehicle_class" nullable="true" originalDbColumnName="Vehicle class" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Engine_size__L" nullable="true" originalDbColumnName="Engine size (L)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Engine_size__L" nullable="true" originalDbColumnName="Engine size (L)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Cylinders" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Cylinders" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Transmission" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Transmission" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Fuel_type" nullable="true" originalDbColumnName="Fuel type" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Fuel_type" nullable="true" originalDbColumnName="Fuel type" pattern="" precision="0" sourceType="CHAR" type="id_Character" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="City__L_100_km" nullable="true" originalDbColumnName="City (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="City__L_100_km" nullable="true" originalDbColumnName="City (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Highway__L_100_km" nullable="true" originalDbColumnName="Highway (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Highway__L_100_km" nullable="true" originalDbColumnName="Highway (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Combined__L_100_km" nullable="true" originalDbColumnName="Combined (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Combined__L_100_km" nullable="true" originalDbColumnName="Combined (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="CO2_emissions__g_km" nullable="true" originalDbColumnName="CO2 emissions (g km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="CO2_emissions__g_km" nullable="true" originalDbColumnName="CO2 emissions (g km)" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="CO2_rating" nullable="true" originalDbColumnName="CO2 rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="CO2_rating" nullable="true" originalDbColumnName="CO2 rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Smog_rating" nullable="true" originalDbColumnName="Smog rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Smog_rating" nullable="true" originalDbColumnName="Smog rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
@@ -720,7 +720,7 @@
     <elementParameter field="TABLE" name="CRITERIA">
       <elementValue elementRef="COLNAME" value="Model_year"/>
       <elementValue elementRef="SORT" value="num"/>
-      <elementValue elementRef="ORDER" value="asc"/>
+      <elementValue elementRef="ORDER" value="desc"/>
     </elementParameter>
     <elementParameter field="CHECK" name="EXTERNAL" value="false"/>
     <elementParameter field="DIRECTORY" name="TEMPFILE" show="false" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace/temp&quot;"/>
@@ -728,46 +728,46 @@
     <elementParameter field="TEXT" name="EXTERNAL_SORT_BUFFERSIZE" show="false" value="1000000"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSortRow_1">
-      <column key="false" length="50" name="Model_year" nullable="true" originalDbColumnName="Model year" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Model_year" nullable="true" originalDbColumnName="Model year" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Make" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Make" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Model" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Model" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Vehicle_class" nullable="true" originalDbColumnName="Vehicle class" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Vehicle_class" nullable="true" originalDbColumnName="Vehicle class" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Engine_size__L" nullable="true" originalDbColumnName="Engine size (L)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Engine_size__L" nullable="true" originalDbColumnName="Engine size (L)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Cylinders" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Cylinders" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Transmission" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Transmission" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Fuel_type" nullable="true" originalDbColumnName="Fuel type" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Fuel_type" nullable="true" originalDbColumnName="Fuel type" pattern="" precision="0" sourceType="CHAR" type="id_Character" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="City__L_100_km" nullable="true" originalDbColumnName="City (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="City__L_100_km" nullable="true" originalDbColumnName="City (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Highway__L_100_km" nullable="true" originalDbColumnName="Highway (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Highway__L_100_km" nullable="true" originalDbColumnName="Highway (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Combined__L_100_km" nullable="true" originalDbColumnName="Combined (L 100 km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Combined__L_100_km" nullable="true" originalDbColumnName="Combined (L 100 km)" pattern="" precision="0" sourceType="REAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="CO2_emissions__g_km" nullable="true" originalDbColumnName="CO2 emissions (g km)" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="CO2_emissions__g_km" nullable="true" originalDbColumnName="CO2 emissions (g km)" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="CO2_rating" nullable="true" originalDbColumnName="CO2 rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="CO2_rating" nullable="true" originalDbColumnName="CO2 rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="50" name="Smog_rating" nullable="true" originalDbColumnName="Smog rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="50" name="Smog_rating" nullable="true" originalDbColumnName="Smog rating" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
@@ -782,17 +782,19 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;BDAT1010_Talend&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:jTTrC4PHuKtUq11RMYrarbujA9pr+pw4CirTfgcY"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Talend_Output&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
-    <elementParameter field="LABEL" name="NOTE" show="false" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns"/>
-    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="SINGLE_INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns"/>
+    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" value="false"/>
     <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" show="false" value=""/>
     <elementParameter field="TEXT" name="START_VALUE" show="false" value="1"/>
     <elementParameter field="TEXT" name="STEP" show="false" value="1"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value=""/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -815,6 +817,7 @@
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
     <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1"/>
     <metadata connector="REJECT" name="REJECT">
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -862,13 +865,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d8424038-194a-47ac-ade6-218a0eb18e5a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HN3tNM493oPMjzt83WLgHgdGY2Y9rIoU8vjQOnkjTSvWSUXzT0Pv85dO1KgZzcMf5FXBKR6ojGOw&#13;
-XDjCFuhFTA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8fa6b2a3-de95-4646-9711-7d10fe0a87d7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Vx4b56Gyy//IZ4mNwjx2V+LAAWGVnUxVqRqtJAEHgEeLNLGdjbeY1ZdhVaLSyAtW7qGPSyaWoKfj&#13;
-tNBrj4YLhg==</DigestValue></Reference></SignedInfo><SignatureValue>ahbCCITvztuuoxUagjwN2yWYDsIqv8ZRQ8bliX+UIdEjcgNVHJezA5HzPGFA/cJ7JjSKMfRYp4jZ&#13;
-vpxYnlXSoIhgTZZBUAykjhTqD7vquT4kCDWPbGxm+X4Dw1ZTTWeJwt1LJLAQbbVvSncQsewUR4tw&#13;
-nZhTHZL5gSPz22pf1hnOj6U6GRN6slL85XEVniwpxMorDB62t+5R+Yho6IEFIWNMViahu2rT6MB+&#13;
-57Hy80zif6cKk0W21MtqcAVxVNfw1RAEqoTL57CvZXwphcFcGN+0EOSaNOk8T5S0e9DUVuoziuew&#13;
-YWtgbP00nd7eFNBkhVWZ+APozJ/O8JkH5pf+Qw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_51667f25-3c9d-4c1a-9123-4364a9144896"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nakYDIrvB56XYfkHxkEr41JJRszJ6CgR+eudG1oTyjqz7pStvyykhcw0F768TiAMR7HdEFf7ZqG9&#13;
+O+UDwHfthA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4de4612e-f090-4498-a985-98455b18ee68"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rIoUApFprS+ALhNAicSjPq4e/zH0CpGfyDqKBgBAnX1xKw4Yslb+6VwRk19ajxPwpBwaDK7B910F&#13;
+whwmhXnUIQ==</DigestValue></Reference></SignedInfo><SignatureValue>RXiXSyGgz0Zb3SM7gLBxBjcRi0gb/BAigjvO9mlzOpD5D/S2f+41+rOSxQV5GdL0/oaulC4Cbisw&#13;
+CzXA3Y380ZqKuka7DsFiV+YZtJIAC+oLPrWg14q+4VvJaAz2pyMg+YtuKJd7J07bfFQzTTyMTmh0&#13;
+JUNz5o17qkc3aY+OCg/GyoaijITwNP2ucv21jN/X6HWtvKIcTAzM9zdNj2oAat8JpYWY+0UMCGah&#13;
+u+gRzO6fCYKJUBrY4SWthGRLqppp64oTTr3vordWZzNt8RlXCS0+ePvNqGTxFGmYheB9n0OTx5FG&#13;
+OUMrY7gV8ugbr3IQchszlfnxCB79lvxH8vyD/A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -890,4 +893,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8fa6b2a3-de95-4646-9711-7d10fe0a87d7" Target="#_d8424038-194a-47ac-ade6-218a0eb18e5a"><Timestamp>2024-08-13 07:50:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4de4612e-f090-4498-a985-98455b18ee68" Target="#_51667f25-3c9d-4c1a-9123-4364a9144896"><Timestamp>2024-08-13 18:00:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
